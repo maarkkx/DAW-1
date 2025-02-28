@@ -1,0 +1,20 @@
+{
+    "$schema": "./ex3mg.jsd",
+    "id_reserva": 0,
+    "usuari": {
+        "nom": "Mark",
+        "email": "m.gras@sapalomera.cat"
+    },
+    "llibres": [
+        {
+        "titol": "harry potter",
+        "autor": "J.K. rolling",
+        "dies_prestec": 2
+    },
+    {
+        "titol": "geronimo stilton",
+        "autor": "si",
+        "dies_prestec": 5
+    }
+    ]
+}

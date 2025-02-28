@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE persona SYSTEM "e5_classeMG.dtd">
+<persona>
+    <tutor>
+        <NIF nif="A1">48570472</NIF>
+        <nom nom="nom">David</nom>
+        <cognoms>Ventura</cognoms>
+        <telefon>674423642</telefon>
+        <correu>d.ventura@</correu>
+    </tutor>
+
+    <alumnes>
+        <NIF nif="A2">23478234</NIF>
+        <nom nom="nom">Pau</nom>
+        <cognoms>Garcia Perez</cognoms>
+        <telefon>657102485</telefon>
+        <correu>pgarcia@</correu>
+    </alumnes>
+
+    <alumnes>
+        <NIF nif="A3">23473434</NIF>
+        <nom nom="nom">Pere</nom>
+        <cognoms>Pi</cognoms>
+        <telefon>721935294</telefon>
+    </alumnes>
+
+    <alumnes>
+        <NIF nif="A4">23749123</NIF>
+        <nom nom="nom">Arnau</nom>
+        <cognoms>Ruiz Garcia</cognoms>
+        <correu>aruiz@</correu>
+    </alumnes>
+
+    <alumnes>
+        <NIF nif="A5">45634856</NIF>
+        <nom nom="nom">Carla</nom>
+        <cognoms>Camos Catalan</cognoms>
+    </alumnes>
+
+    <alumnes>
+        <NIF nif="A6">05894973</NIF>
+        <nom nom="nom">Andrea</nom>
+        <cognoms>Masedo</cognoms>
+        <telefon>658349462</telefon>
+        <correu>amasedo@</correu>
+    </alumnes>
+</persona>

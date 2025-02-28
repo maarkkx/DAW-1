@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro category="infantil">
+        <nom lang="es">Geronimo Stilton en el reino de la fantasia</nom>
+        <autor>Elisabetta Dami</autor>
+        <anyPublicacio>2003</anyPublicacio>
+        <preuEuros>20</preuEuros>
+    </libro>
+    <libro category="Accion">
+        <nom lang="es">Los Juegos del Hambre 1</nom>
+        <autor>Suzanne Collins</autor>
+        <anyPublicacio>2008</anyPublicacio>
+        <preuEuros>20</preuEuros>
+    </libro>
+    <libro category="Amor">
+        <nom lang="es">After</nom>
+        <autor>Anna Todd</autor>
+        <anyPublicacio>2013</anyPublicacio>
+        <preuEuros>10</preuEuros>
+    </libro>
+    <libro category="Magia">
+        <nom lang="es">Harry Potter y la piedra filosofal</nom>
+        <autor>J.K. Rowling</autor>
+        <anyPublicacio>1997</anyPublicacio>
+        <preuEuros>15</preuEuros>
+    </libro>
+        <libro category="Magia">
+        <nom lang="es">Harry Potter y la camara de los secretos</nom>
+        <autor>J.K. Rowling</autor>
+        <anyPublicacio>1998</anyPublicacio>
+        <preuEuros>15</preuEuros>
+    </libro>
+</biblioteca>

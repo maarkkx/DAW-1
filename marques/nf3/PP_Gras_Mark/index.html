@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari de Validació</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body onload="focus()">
+    <h1>Formulari de Validació</h1>
+    <div class="contenidor">
+        <!-- Formulari -->
+        <div class="formulari">
+            <form id="formulariValidacio" onsubmit="validarFormulari(event)">
+                <label for="nom">Nom *</label><br>
+                <input type="text" id="nom" name="nom"><br><br>
+
+                <label for="primerCognom">Primer Cognom *</label><br>
+                <input type="text" id="primerCognom" name="primerCognom"><br><br>
+
+                <label for="email">Correu Electrònic *</label><br>
+                <input type="email" id="email" name="email"><br><br>
+				
+				 <label for="dataNaixement">Data de Naixement *</label><br>
+                <input type="date" id="dataNaixement" name="dataNaixement"><br><br>
+
+                <label for="comentaris">Comentaris</label><br>
+                <textarea id="comentaris" name="comentaris" rows="4" cols="50"></textarea><br>
+
+         
+                <label for="contrasenya">Contrasenya *</label><br>
+                <input type="password" id="contrasenya" name="contrasenya" placeholder="mínim 8 caràcters" autocomplete="off"><br><br>
+
+                <label for="repeteixContrasenya">Repeteix la Contrasenya *</label><br>
+                <input type="password" id="repeteixContrasenya" name="repeteixContrasenya" autocomplete="off"><br><br>
+
+                <button type="submit" id="enviar">Enviar</button>
+                <button type="reset" id="esborrar">Esborrar</button>
+            </form>
+        </div>
+
+        <!-- Informació mostrada -->
+        <div class="informacioMostra">
+            <h2>Informació introduïda:</h2>
+            <p id="infoNom"></p>
+            <p id="infoCognom"></p>
+            <p id="infoEmail"></p>
+            <p id="infoComentaris"></p>
+            <p id="infoDataNaixement"></p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+

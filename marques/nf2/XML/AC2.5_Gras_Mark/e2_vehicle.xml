@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicle>
+    <marca lang="es">Volkswagen</marca>
+    <model>Golf</model>
+    <variant>GTI</variant>
+    <matricula>2341JTY</matricula>
+    <anyMatricula>2020</anyMatricula>
+</vehicle>

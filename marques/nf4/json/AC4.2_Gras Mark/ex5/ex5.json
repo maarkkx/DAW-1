@@ -1,0 +1,11 @@
+{
+    "$schema": "./ex5.jsd",
+    "usuaris": [
+        {
+            "nom": "Mark",
+            "email": "m.gras@sapalomera.cat",
+            "data_registre": "2025-02-13"
+        }
+    ]
+
+}

@@ -1,0 +1,11 @@
+<!ELEMENT classe (alumnes+)>
+
+<!ELEMENT alumnes (NIF, nom, cognoms+)>
+
+<!ELEMENT NIF (#PCDATA)>
+<!ATTLIST NIF nif ID #REQUIRED>
+
+<!ELEMENT nom (#PCDATA)>
+<!ATTLIST nom nom CDATA #REQUIRED>
+
+<!ELEMENT cognoms (#PCDATA)>

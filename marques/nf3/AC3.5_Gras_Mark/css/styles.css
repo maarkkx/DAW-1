@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formulari {
+    background-color: lightgrey;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0px 5px 5px rgb(104, 104, 104);
+    width: 90vh;
+    justify-content: center;
+    border: solid 1px;
+    margin-right: 20px;
+    height: 60vh;
+}
+.carta {    
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0px 5px 5px rgb(104, 104, 104);
+    width: 90vh;
+    justify-content: center;
+    border: solid 1px;
+    height: 60vh;
+}
+.contenidor {
+    justify-content: center;
+    display: flex;
+}
+h1 {
+    text-align: center;
+}
+input {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+}
+#enviar {
+    border-radius: 5px;
+    background-color: rgb(104, 163, 252);
+    border: none;
+    height: 30px;
+    width: 70px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+#enviar:hover {
+    background-color: rgb(13, 90, 207);
+}
+#esborrar {
+    border-radius: 5px;
+    background-color: rgb(252, 104, 104);
+    border: none;
+    height: 30px;
+    width: 70px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+#esborrar:hover {
+    background-color: rgb(176, 34, 34);
+}
+#enviarCarta {
+    border-radius: 5px;
+    background-color: rgb(104, 163, 252);
+    border: none;
+    height: 30px;
+    width: 100px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+#enviarCarta:hover {
+    background-color: rgb(13, 90, 207);
+}
+#eliminarCarta {
+    border-radius: 5px;
+    background-color: rgb(252, 104, 104);
+    border: none;
+    height: 30px;
+    width: 100px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+#eliminarCarta:hover {
+    background-color: rgb(176, 34, 34);
+}

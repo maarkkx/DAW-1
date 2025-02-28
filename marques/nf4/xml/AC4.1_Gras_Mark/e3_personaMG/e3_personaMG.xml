@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE persona SYSTEM "e3_personaMG.dtd">
+<persona>
+    <NIF nif="A1">44382145X</NIF>
+    <nom nom="nom">Pau</nom>
+    <cognoms>Garcia</cognoms>
+    <contacte tipus="Correu">632821233</contacte>
+    <sexe genere="Home">H</sexe>
+</persona>

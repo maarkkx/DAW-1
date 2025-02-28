@@ -1,0 +1,9 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "nom": {"type": "string" },
+        "edat": {"type": "integer", "minimun": 0 }
+    },
+    "required": ["nom", "edat"]
+}

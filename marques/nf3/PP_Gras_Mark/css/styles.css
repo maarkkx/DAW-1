@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulari {
+    background-color: rgb(240, 240, 240);
+    display: inline-block;
+    width: 90vh;
+    justify-content: center;
+    border: solid 1px;
+    margin-right: 20px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contenidor {
+    justify-content: center;
+    display: flex;
+}
+.informacioMostra {
+    background-color: rgb(240, 240, 240);
+    display: inline-block;
+    width: 90vh;
+    justify-content: center;
+    border: solid 1px;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;  
+}
+input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+input:focus {
+    background-color: rgb(132, 132, 132);
+    color: white;
+}
+#enviar {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(84, 124, 224);
+    transition: background-color 0.3s ease;
+}
+textarea:focus {
+    background-color: rgb(132, 132, 132);
+    color: white;
+}
+#esborrar {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;   
+    background-color: rgb(224, 84, 84);
+    transition: background-color 0.3s ease;
+}
+#enviar:hover {
+    background-color:  rgb(61, 89, 158);
+}
+#esborrar:hover {
+    background-color:  rgb(151, 60, 60);
+}

@@ -1,0 +1,83 @@
+* {
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+    text-decoration: overline underline;
+    font-size: 55px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+body {
+    background-color: black;
+    margin: 0;
+}
+.terminal {
+    border: 1px solid;
+    background-color: green;
+    height: auto;
+    padding-right: 5px;
+}
+.caminox {
+    border: 1.5px solid;
+    border-color: white;
+    border-left-color: green;
+    height: 68px;
+    width: 100%;
+}
+.apos {
+    background-color: black;
+    height: auto;
+    width: 100%;
+}
+table {
+    border: 3px solid;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 150px;
+    color: white;
+}
+th {
+    border: 3px solid;
+}
+td {
+    border: 3px solid;
+    height: 30px;
+}
+input {
+    height: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.dinero {
+    background-color: black;
+    text-align: center;
+    height: auto;
+    color: white;
+}
+.imgCab {
+    width: 75px;
+    height: 60px;
+}
+#comenzar {
+    margin-top: 5px;
+    width: auto;
+    height: auto;
+    border: solid 1px;
+    border-color: white;
+    background-color: rgb(255, 26, 26);
+    color: white;
+}
+#comenzar:hover {
+    border-color: white;
+    background-color: rgb(255, 80, 80);
+    color: white;
+}
+.cam {
+    display: inline;
+}
+.botones {
+    background-color: black;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+<!ELEMENT persona (tutor, alumnes+)>
+
+<!ELEMENT tutor (NIF, nom, cognoms+, telefon*, correu*)>
+
+<!ELEMENT alumnes (NIF, nom, cognoms+, telefon*, correu*)>
+
+<!ELEMENT NIF (#PCDATA)>
+<!ATTLIST NIF nif ID #REQUIRED>
+
+<!ELEMENT nom (#PCDATA)>
+<!ATTLIST nom nom CDATA #REQUIRED>
+
+<!ELEMENT cognoms (#PCDATA)>
+
+<!ELEMENT telefon (#PCDATA)>
+
+<!ELEMENT correu (#PCDATA)>

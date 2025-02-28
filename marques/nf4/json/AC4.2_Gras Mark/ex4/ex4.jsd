@@ -1,0 +1,10 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": { 
+        "nom": { "type": "string"},
+        "dies": { "type": "integer"},
+        "tipus_habitacio": {"enum": ["individual", "doble", "suite"]}
+        },
+        "required": ["nom", "dies", "tipus_habitacio"]
+}

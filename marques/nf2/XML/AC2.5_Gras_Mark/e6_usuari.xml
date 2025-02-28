@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuari>
+    <nom>mgras</nom>
+    <contrasenya>holahola</contrasenya>
+    <uid>1</uid>
+    <gid>10010</gid>
+    <info>a</info>
+    <di>/users/home/mgras</di>
+    <shell>/bin/bash</shell>
+</usuari>

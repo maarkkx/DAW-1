@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Tresor:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Tresor_jar</output-path>
+    <root id="archive" name="Tresor.jar">
+      <element id="module-output" name="Tresor" />
+    </root>
+  </artifact>
+</component>

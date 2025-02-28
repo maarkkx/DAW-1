@@ -1,0 +1,21 @@
+<!ELEMENT llibreria (llibre+)>
+
+<!ELEMENT llibre (titol, autor+, ISBN, editorial?, any_publicacio, categories*,preu?)>
+
+<!ELEMENT titol (#PCDATA)>
+
+<!ELEMENT autor (#PCDATA)>
+
+<!ELEMENT ISBN (#PCDATA)>
+<!ATTLIST ISBN id ID #REQUIRED>
+
+<!ELEMENT editorial (#PCDATA)>
+
+<!ELEMENT any_publicacio (#PCDATA)>
+
+<!ELEMENT categories (categoria+)>
+
+<!ELEMENT categoria (#PCDATA)>
+
+<!ELEMENT preu (#PCDATA)>
+<!ATTLIST preu moneda (EUR|USD) #REQUIRED>

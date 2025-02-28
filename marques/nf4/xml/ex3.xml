@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ex3.xsd">
+    <producte>
+        <nom>cebolla</nom>
+        <preu>12.5</preu>
+    </producte>
+</productes>

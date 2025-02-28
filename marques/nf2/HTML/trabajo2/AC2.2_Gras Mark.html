@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari</title>
+    <!--Estils-->
+    <style>
+        tr {
+            border: 1px solid;
+        }
+
+        td {
+            border: 1px solid;
+        }
+
+        input {
+            width: 98.65%;
+        }
+
+        select {
+            width: 98.65%;
+        }
+
+        textarea {
+            width: 99.5%;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://www.sapalomera.cat/">
+        <img style="width: 200px;height: 100px;" alt="torna a carregar la pagina" class="imagen1" src="https://www.sapalomera.cat/wp-content/themes/SaPalomeraTheme/img/logo-institut-sapalomera.png">
+    </a>
+    <h1 style="text-align: center;">AC2.2 Exercicis HTML - Formularis</h1>
+    <!--Creacio formulari-->
+    <form method="post">
+        <!--Creacio Taula-->
+        <table style="border: 1px solid;width: 100%;">
+            <!--Fila 1 Nom y cognom-->
+            <tr>
+                <td style="background-color: lightgrey;"><label for="nom">Escriu el teu nom</label></td>
+                <td><input type="text" id="nom" name="nom"></td>
+                <td style="background-color: lightgrey;"><label for="cognom">Escriu el teu cognom</label></td>
+                <td><input type="text" id="cognom" name="cognom"></td>
+            </tr>
+            <!--Fila 2 Correu @-->
+            <tr>
+                <td style="background-color: lightgrey;"><label for="correu">Escriu el teu correu</label></td>
+                <td colspan="3"><input type="email" value="@" id="correu" name="correu"></td>
+            </tr>
+            <!--Fila 3 Que prefereixes-->
+            <tr>
+                <td style="background-color: #e5a1fc;"><label for="aficions">Que prefereixes?</label>
+                </td>
+                <td><select name="aficions" id="aficions">
+                        <option selected>Res</option>
+                        <option>Cuinar</option>
+                        <option>Esport</option>
+                        <option>Cantar</option>
+                    </select></td>
+                <td style="background-color: #e5a1fc;"><label for="esportss">Quina activitat de les següents fas més?</label></td>
+                <td><select name="esportss" id="esportss">
+                        <option selected>Res</option>
+                        <option>Natació</option>
+                        <option>Senderisme</option>
+                        <option>Basquet</option>
+                    </select>
+                </td>
+            </tr>
+            <!--Fila 4 Checkbox-->
+            <tr>
+                <td style="background-color: #de7cff;"><label for="psi">Indica si el practiques</label></td>
+                <td><input type="checkbox" name="psi" id="psi"></td>
+                <td style="background-color: #de7cff;"><label for="esi">Digues si n'ets espectador</label></td>
+                <td><input name="esi" id="esi" checked type="checkbox"></td>
+            </tr>
+            <!--Fila 5 radio-->
+            <tr>
+                <td><label style="color: lightgreen;" for="si">T'agrada el formulari?</label></td>
+                <td><input type="radio" name="si" id="si"></td>
+                <td><label for="no">No t'agrada el formulari</label></td>
+                <td><input type="radio" name="no" id="no"></td>
+            </tr>
+            <!--Fila 6 Preguntas-->
+            <tr>
+                <td colspan="4" style="background-color: lightgrey;"><label for="obs">Preguntas</label></td>
+            </tr>
+            <!--Fila 7 Text area-->
+            <tr>
+                <td colspan="4"><textarea id="obs">Tens alguna pregunta?</textarea></td>
+            </tr>
+            <!--Fila 8-9 Videos-->
+            <tr>
+                <td colspan="4" style="background-color: lightgrey;"><label for="vid">Escull un video</label></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/_EyZUTDAH0U?si=8cQ-32Cmk7ttCv9N" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                <td colspan="2" style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/NnOH3_NAw34?si=EoGnIP1cKFV-AxLm" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+            </tr>
+            <!--Fila 10 Radio Video-->
+            <tr>
+                <td colspan="2"><input type="radio" id="vid" name="vid"></td>
+                <td colspan="2"><input type="radio" name="vid" id="vid2"></td>
+            </tr>
+            <!--Fila 11 Submit button-->
+            <tr>
+                <td colspan="2" style="background-color: rgb(255, 121, 215);"><label for="boton">Gràcies per participar</label></td>
+                <td colspan="2" style="background-color: rgb(255, 121, 215);"><input type="submit" name="boton" id="boton"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

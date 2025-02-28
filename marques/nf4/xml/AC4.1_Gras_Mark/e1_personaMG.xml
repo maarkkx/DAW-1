@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE persona [
+    <!ELEMENT persona (NIF, nom, cognom1, cognom2)>
+
+    <!ELEMENT NIF (#PCDATA)>
+    <!ATTLIST NIF nif ID #REQUIRED>
+
+    <!ELEMENT nom (#PCDATA)>
+    <!ATTLIST nom nom CDATA #REQUIRED>
+
+    <!ELEMENT cognom1 (#PCDATA)>
+    <!ATTLIST cognom1 cognom CDATA #REQUIRED>
+
+    <!ELEMENT cognom2 (#PCDATA)>
+    <!ATTLIST cognom2 cognom CDATA #IMPLIED>
+    ]>
+<persona>
+    <NIF nif="A1">44382145X</NIF>
+    <nom nom="nom">Pau</nom>
+    <cognom1 cognom="cognom1">Garcia</cognom1>
+    <cognom2 cognom="cognom2">Perez</cognom2>
+</persona>

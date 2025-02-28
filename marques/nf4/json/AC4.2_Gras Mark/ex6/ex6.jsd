@@ -1,0 +1,10 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": { 
+        "id_comanda": { "type": "integer"},
+        "client": { "type": "string"},
+        "estat": {"enum": ["pendent", "enviat", "entregat", "cancel·lat"], "default": "pendent"}
+        },
+        "required": ["id_comanda", "client", "estat"]
+}

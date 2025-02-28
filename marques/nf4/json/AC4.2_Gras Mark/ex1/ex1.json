@@ -1,0 +1,5 @@
+    {
+        "$schema": "./ex1.jsd",
+        "nom": "Mark",
+        "edat": 18    
+    }

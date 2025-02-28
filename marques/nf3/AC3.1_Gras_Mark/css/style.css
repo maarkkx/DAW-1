@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+
+}
+cicles {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(213, 213, 213);
+}
+.header {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.menu {
+    list-style-type: none;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(64, 64, 64);
+}
+.menu li a{
+    display: block;
+    padding: 28.5px 20px;
+    color: white;
+    text-align: center;
+    width: auto;
+    height: auto;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgba(211, 211, 211, 0.5);
+}
+h1 {
+    color: rgb(124, 175, 252);
+    display: block;
+    margin-bottom: 20px;
+}
+.slide {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+.slideI {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.content {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgb(75, 75, 75);
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+}
+.content2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgb(75, 75, 75);
+    padding: 5px;
+    border-radius: 10px;
+    display: none;
+}
+.content3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgb(75, 75, 75);
+    padding: 5px;
+    border-radius: 10px;
+    display: none;
+}
+.texto {
+    padding: 5px;
+    text-align: justify;
+    margin-left: 10px;
+}
+.h22 {
+    color: rgb(124, 175, 252);
+    padding: 15px;
+    font-size: 20px;
+}
+.fondoNegro {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-align: justify;
+}
+.operadorText {
+    color: black;
+    margin-left: 10px;
+}
+.condicionalText {
+    color: black;
+    margin-left: 10px;
+}
+.bucleText {
+    color: black;
+    margin-left: 10px;
+}
+.arrayText {
+    color: black;
+    margin-left: 10px;
+}
+.funcionText {
+    color: black;
+    margin-left: 10px;
+}
+.buttons {
+    padding: 10px;
+    margin-left: 10px;
+}
+.but {
+    color: white;
+    background-color: rgb(124, 175, 252);
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    text-align: center;
+    width: 100px;
+    transition: background-color 0.3s ease;
+}
+.but:hover {
+    background-color: rgb(161, 199, 255);
+    border: 2px solid;
+    border-color: black;
+}
+.llistes {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgb(75, 75, 75);
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.textLlista {
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    resize: none;
+    margin-bottom: 20px;
+}
+.llistesH2 {
+    color: rgb(124, 175, 252);
+    display: block;
+    margin-bottom: 20px;
+}
+.add {
+    border-radius: 5px;
+    background-color: rgb(124, 175, 252);
+    border: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+}
+.del {
+    border-radius: 5px;
+    background-color: rgb(124, 175, 252);
+    border: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+}
+.add:hover {
+    background-color: rgb(163, 200, 255);
+}
+.del:hover {
+    background-color: rgb(163, 200, 255);
+}
+#llistaUl1 {
+    text-align: left;
+}
+#llistaOl {
+    text-align: left;
+}
+#llistadl3 {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.formDiv {
+    box-sizing: border-box;
+    margin-left: 375px;
+    display: block;
+    width: 750px;
+    height: auto;
+    box-shadow: 0px 5px 5px rgb(104, 104, 104);
+    padding: 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+label {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(124, 175, 252);
+}
+input {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+input:focus {
+    background-color: lightgrey;
+}
+select {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+#masc {
+    height: 15px;
+    margin-top: 10px;
+    width: 15px;
+}
+#fem {
+    height: 15px;
+    margin-top: 10px;
+    width: 15px;
+}
+.labSexe {
+    color: black;
+    font-size: 15px;
+    font-weight: normal;
+}
+#enviar {
+    background-color: rgb(91, 149, 251);
+    color: white;
+    border: none;
+    width: 100%;
+    height: 30px;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#enviar:hover {
+    background-color: rgb(128, 173, 251);
+}
+#reset {
+    background-color: rgb(253, 69, 69);
+    color: white;
+    border: none;
+    width: 100%;
+    height: 30px;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#reset:hover {
+    background-color: rgb(251, 128, 128);
+}

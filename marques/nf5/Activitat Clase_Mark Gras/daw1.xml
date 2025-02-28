@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="css/style.css" type="text/css"?>
+<cicles xmlns="http://www.w3.org/1999/xhtml">
+    <curs>
+        <header>
+            <ul>
+                <li><a href="daw1.xml">DAW 1</a></li>
+                <li><a href="daw2.xml">DAW 2</a></li>
+                <p class="barrita">|</p>
+                <li><a href="#pdd">Persistència de dades</a></li>
+                <li><a href="#si">Sistemes informàtics</a></li>
+                <li><a href="#bbdd">Base de dades</a></li>
+                <li><a href="#p">Programació</a></li>
+                <li><a href="#llm">Llenguatges de marques i sistemes de gestió d’informació</a></li>
+            </ul>
+        </header>
+    </curs>
+    <modul>
+        <div class="modul">
+            <nom>
+                <h2 id="pdd">Persistència de dades</h2>
+            </nom>
+            <codi>
+                <p>MS005</p>
+            </codi>
+            <professor>
+                <p>Pere Sánchez</p>
+            </professor>
+            <temes>
+                <nom><p>Part 1, Ampliacio de les hores de programació</p></nom>
+                <nom><p>Part 2, Accés a base de dades</p></nom>
+            </temes>
+            <recursos>
+                <p><a href="https://www.youtube.com/c/Programaci%C3%B3nATS">Programación ATS</a></p>
+            </recursos>
+        </div>
+    </modul>
+    <modul>
+        <div class="modul">
+            <nom>
+                <h2 id="si">Sistemes informàtics</h2>
+            </nom>
+            <codi>
+                <p>M0483</p>
+            </codi>
+            <professor>
+                <p>Ricard Pla</p>
+            </professor>
+            <temes>
+                <nom><p>Administració d'usuaris i grups en un domini "Active Directory"</p></nom>
+            </temes>
+            <recursos>
+                <p><a href="https://www.youtube.com/@AlbertoLopezVLOG">AlbertoLopez TECH TIPS</a></p>
+            </recursos>
+        </div>
+    </modul>
+    <modul>
+        <div class="modul">
+            <nom>
+                <h2 id="bbdd">Base de dades</h2>
+            </nom>
+            <codi>
+                <p>M0484</p>
+            </codi>
+            <professor>
+                <p>Robert Ventura</p>
+            </professor>
+            <temes>
+                <nom><p>Model entitat relació, Model relacional, SQL i accés a API</p></nom>
+            </temes>
+            <recursos>
+                <p><a href="https://www.youtube.com/@darthger">Darthger</a></p>
+            </recursos>
+        </div>
+    </modul>
+    <modul>
+        <div class="modul">
+            <nom>
+                <h2 id="p">Programació</h2>
+            </nom>
+            <codi>
+                <p>M0485</p>
+            </codi>
+            <professor>
+                <p>Pere Sánchez</p>
+            </professor>
+            <temes>
+                <nom><p>Programació estructurada, Programació orientada a objectes i Arxius i bases de dades</p></nom>
+            </temes>
+            <recursos>
+                <p><a href="https://www.youtube.com/@midudev">Midudev</a></p>
+            </recursos>
+        </div>
+    </modul>
+    <modul>
+        <div class="modul">
+            <nom>
+                <h2 id="llm">Llenguatges de marques i sistemes de gestió d’informació</h2>
+            </nom>
+            <codi>
+                <p>M0373</p>
+            </codi>
+            <professor>
+                <p>Àngel Bosch</p>
+            </professor>
+            <temes>
+                <nom><p>Introducció al llenguatge de marques, HTML, CSS i XML, validació de documents i llenguatges de guions</p></nom>
+            </temes>
+            <recursos>
+                <p><a href="https://www.youtube.com/@midudev">Midudev</a></p>
+            </recursos>
+        </div>
+    </modul>
+    <informacio>
+        <footer>
+            <p class="footer">Institut Sa Palomera</p>
+            <p class="footer">Mark Gras</p>
+        </footer>
+    </informacio>
+</cicles>

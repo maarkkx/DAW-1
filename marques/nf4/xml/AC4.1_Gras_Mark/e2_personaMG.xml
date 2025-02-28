@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE persona [
+    <!ELEMENT persona (NIF, nom, cognoms+, telefon+, sexe)>
+
+    <!ELEMENT NIF (#PCDATA)>
+    <!ATTLIST NIF nif ID #REQUIRED>
+
+    <!ELEMENT nom (#PCDATA)>
+    <!ATTLIST nom nom CDATA #REQUIRED>
+
+    <!ELEMENT cognoms (#PCDATA)>
+
+    <!ELEMENT telefon (#PCDATA)>
+
+    <!ELEMENT sexe (#PCDATA)>
+    <!ATTLIST sexe genere (Home|Dona) #IMPLIED>
+    ]>
+<persona>
+    <NIF nif="A1">44382145X</NIF>
+    <nom nom="nom">Pau</nom>
+    <cognoms>Garcia</cognoms>
+    <telefon>632821233</telefon>
+    <sexe genere="Home">H</sexe>
+</persona>

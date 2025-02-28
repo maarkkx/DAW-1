@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE llibreria SYSTEM "EX1MG.dtd">
+<llibreria>
+    <llibre>
+        <titol>Harry Potter</titol>
+        <autor>J.K. Rolling</autor>
+        <ISBN id="A1">1</ISBN>
+        <editorial>si</editorial>
+        <any_publicacio>2000</any_publicacio>
+        <categories>
+            <categoria>Accio</categoria>
+            <categoria>Fantasia</categoria>
+        </categories>
+        <preu moneda="EUR">20</preu>
+    </llibre>
+    <llibre>
+        <titol>geronimo stilton</titol>
+        <autor>Si</autor>
+        <ISBN id="A2">2</ISBN>
+        <editorial>si</editorial>
+        <any_publicacio>2004</any_publicacio>
+        <categories>
+            <categoria>Accio</categoria>
+            <categoria>Misteri</categoria>
+        </categories>
+        <preu moneda="EUR">15</preu>
+    </llibre>
+</llibreria>

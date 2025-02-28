@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header li a {
+    float: left;
+}
+
+li a {
+
+    margin: 0;
+    padding: 28px 127.1px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+li a:hover {
+    background-color: rgb(31, 31, 31);
+}
+
+div.header {
+    background-color: rgb(132, 132, 132);
+    height: 75px;
+}
+
+.slide {
+    height: 100%;
+    width: 100%;
+    opacity: 60%;
+}
+
+.article {
+    max-width: 1100px;
+    margin: 10px;
+    margin-right: 100px;
+
+}
+
+.article p {
+    margin-bottom: -15px;
+    padding-right: 20px;
+    float: left;
+}
+
+.preguntes {
+    display: inline-block;
+    padding: 30px 50px;
+    background-color: rgb(132, 132, 132);
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    transition: background-color 0.3s ease;
+}
+
+.preguntes p {
+    margin-bottom: 20px;
+    margin-top: -15px;
+    color: white;
+}
+
+.preguntes h2 {
+    margin-bottom: 20px;
+    margin-top: -15px;
+    color: white;
+}
+
+.preguntes:hover {
+    background-color: rgb(31, 31, 31);
+}
+
+.poblacio p {
+    margin-bottom: -15px;
+}
+
+.poblacio h2 {
+    margin-top: 50px;
+}
+
+.titol {
+    text-align: center;
+}
+
+.taula {
+    width: 99.3%;
+    margin: 10px;
+}
+
+td {
+    border-bottom: 1px solid;
+}
+
+.imatges {
+    height: 232.5px;
+    width: 465px;
+    margin: 20px;
+    float: left;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.imatges:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: rgb(132, 132, 132);
+    clear: both;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.footer p {
+    margin-top: 30px;
+}
+
+.titol2 {
+    margin-left: 10px;
+}

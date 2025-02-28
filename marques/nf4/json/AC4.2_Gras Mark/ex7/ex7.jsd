@@ -1,0 +1,37 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "reservas": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": { 
+                    "id_reserva": { "type": "integer" },
+                    "client": { 
+                        "type": "object",
+                        "properties": {
+                            "nom": { "type": "string" },
+                            "email": { "type": "string", "format": "email" }
+                        },
+                        "required": ["nom", "email"]
+                    },
+                    "habitacions": { 
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "tipus": { "enum": ["individual", "doble", "suite"] },
+                                "nombre_nits": { "type": "integer" },
+                                "preu_per_nit": { "type": "integer" }
+                            },
+                            "required": ["tipus", "nombre_nits", "preu_per_nit"]
+                        }
+                    }
+                },
+                "required": ["id_reserva", "client", "habitacions"]
+            }
+        }
+    },
+    "required": ["reservas"]
+}

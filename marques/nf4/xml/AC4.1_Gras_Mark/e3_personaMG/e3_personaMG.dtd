@@ -1,0 +1,17 @@
+<!ELEMENT persona (NIF, nom, cognoms+, contacte*, sexe)>
+
+<!ELEMENT NIF (#PCDATA)>
+<!ATTLIST NIF nif ID #REQUIRED>
+
+<!ELEMENT nom (#PCDATA)>
+<!ATTLIST nom nom CDATA #REQUIRED>
+
+<!ELEMENT cognoms (#PCDATA)>
+
+
+<!ELEMENT contacte (#PCDATA)>
+
+<!ELEMENT sexe (#PCDATA)>
+<!ATTLIST sexe genere (Home | Dona) #IMPLIED>
+    
+<!ATTLIST contacte tipus (Correu | Telefon) #IMPLIED>

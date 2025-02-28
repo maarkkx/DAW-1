@@ -1,0 +1,6 @@
+{
+    "$schema": "./ex7.jsd",
+    "id_comanda": 0,
+    "client": "Mark",
+    "estat": "entregat"
+}

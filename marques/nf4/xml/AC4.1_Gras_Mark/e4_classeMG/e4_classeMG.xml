@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE classe SYSTEM "e4_classeMG.dtd">
+<classe>
+    <alumnes>
+        <NIF nif="A1">23478234</NIF>
+        <nom nom="nom">Pau</nom>
+        <cognoms>Garcia</cognoms>
+    </alumnes>
+
+    <alumnes>
+        <NIF nif="A2">23478234</NIF>
+        <nom nom="nom">Pere</nom>
+        <cognoms>Pi</cognoms>
+    </alumnes>
+
+    <alumnes>
+        <NIF nif="A3">23749123</NIF>
+        <nom nom="nom">Arnau</nom>
+        <cognoms>Ruiz</cognoms>
+        <cognoms>Garcia</cognoms>
+    </alumnes>
+
+    <alumnes>
+        <NIF nif="A4">45634856</NIF>
+        <nom nom="nom">Carla</nom>
+        <cognoms>Camos</cognoms>
+    </alumnes>
+
+    <alumnes>
+        <NIF nif="A5">05894973</NIF>
+        <nom nom="nom">Andrea</nom>
+        <cognoms>Masedo</cognoms>
+    </alumnes>
+</classe>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="css/style.css" type="text/css"?>
+<cicles xmlns="http://www.w3.org/1999/xhtml">
+    <curs>
+        <header>
+            <ul>
+                <li><a href="daw1.xml">DAW 1</a></li>
+                <li><a href="daw2.xml">DAW 2</a></li>
+                <p class="barrita">|</p>
+                <li><a href="#pdd">Desenvolupament web en entorn client</a></li>
+                <li><a href="#si">Desenvolupament web en entorn servidor</a></li>
+                <li><a href="#bbdd">Desplegament d'aplicacions web</a></li>
+                <li><a href="#p">Disseny d'interfícies web</a></li>
+            </ul>
+        </header>
+    </curs>
+    <div class="modul">
+        <modul>
+            <nom>
+                <h2 id="pdd">Desenvolupament web en entorn client</h2>
+            </nom>
+            <codi>
+                <p>M06</p>
+            </codi>
+            <professor>
+                <p>Pere Sánchez</p>
+            </professor>
+            <temes>
+                <nom><p>Execució de programes al costat client, programació amb galetes, finestres i marcs</p></nom>
+            </temes>
+            <recursos>
+                <p><a href="https://www.youtube.com/c/Programaci%C3%B3nATS">Programación ATS</a></p>
+            </recursos>
+        </modul>
+    </div>
+    <div class="modul">
+        <modul>
+            <nom>
+                <h2 id="si">Desenvolupament web en entorn servidor</h2>
+            </nom>
+            <codi>
+                <p>M07</p>
+            </codi>
+            <professor>
+                <p>Xavier Martín</p>
+            </professor>
+            <temes>
+                <nom><p>Programació amb llenguatges com php, sql, etc.</p></nom>
+            </temes>
+            <recursos>
+                <p><a href="https://www.youtube.com/c/Programaci%C3%B3nATS">Programación ATS</a></p>
+            </recursos>
+        </modul>
+    </div>
+    <div class="modul">
+        <modul>
+            <nom>
+                <h2 id="bbdd">Desplegament d'aplicacions web</h2>
+            </nom>
+            <codi>
+                <p>M08</p>
+            </codi>
+            <professor>
+                <p>Àngel Bosch</p>
+            </professor>
+            <temes>
+                <nom><p>Desplegar una pagina web a internet i mantenir-la, actualitzar-la</p></nom>
+            </temes>
+            <recursos>
+                <p><a href="https://www.youtube.com/c/Programaci%C3%B3nATS">Programación ATS</a></p>
+            </recursos>
+        </modul>
+    </div>
+    <div class="modul">
+        <modul>
+            <nom>
+                <h2 id="p">Disseny d'interfícies web</h2>
+            </nom>
+            <codi>
+                <p>M09</p>
+            </codi>
+            <professor>
+                <p>Ainhoa Zaldua</p>
+            </professor>
+            <temes>
+                <nom><p>Disseny de l'interficie del usuari, CSS, etc.</p></nom>
+            </temes>
+            <recursos>
+                <p><a href="https://www.youtube.com/c/Programaci%C3%B3nATS">Programación ATS</a></p>
+            </recursos>
+        </modul>
+    </div>
+        <informacio>
+        <footer>
+            <p class="footer">Institut Sa Palomera</p>
+            <p class="footer">Mark Gras</p>
+        </footer>
+    </informacio>
+</cicles>

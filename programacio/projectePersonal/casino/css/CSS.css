@@ -1,0 +1,96 @@
+﻿* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    background-color: rgb(64, 64, 64);
+    margin: 0;
+    padding: 0;
+}
+.header {
+    text-align: center;
+    display: block;
+}
+.gCasino {
+    height: 100px;
+    transition: opacity 0.5s ease, height 0.5s ease;
+}
+.nav {
+    background-color: rgb(94, 0, 0);
+    width: 20vh;
+    height: 100vh;
+    border-top-right-radius: 5px;
+    float: left;
+    transition: opacity 0.5s ease, width 0.5s ease;
+}
+ul {
+    list-style-type: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+li a{
+    display: block;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+a {
+    text-align: center;
+    display: block;
+    border: 2px solid;
+    border-collapse: collapse;
+    border-left: none;
+    color: rgb(228, 226, 147);
+}
+li a:hover {
+    background-color: rgb(149, 61, 55);
+}
+.primero {
+    border-top-right-radius: 5px;
+}
+.rul {
+    height: 7vh;
+    width: 7vh;
+    display: block;
+    margin: 10px auto;
+}
+.cabImg {
+    height: 7vh;
+    width: 7vh;
+    margin: 3px;
+    margin-top: 10px;
+}
+.blackJack {
+    height: 8vh;
+    width: 8vh;    
+}
+.superSpin {
+    height: 7vh;
+    width: 7vh;
+    margin-top: 5px;
+}
+.trag {
+    height: 7vh;
+    width: 7vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.content {
+    height: 100vh;
+    width: 90vw;
+    float: left;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+}
+.navegacion {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+}
+

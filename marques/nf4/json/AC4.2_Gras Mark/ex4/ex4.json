@@ -1,0 +1,6 @@
+{
+    "$schema": "./ex4.jsd",
+    "nom": "Mark",
+    "dies": 4,
+    "tipus_habitacio": "suite"
+}

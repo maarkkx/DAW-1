@@ -1,0 +1,13 @@
+{
+    "$schema": "./ex3.jsd",
+    "bilbioteca": [
+        {
+            "titol": "Harry Potter",
+            "autor": "JK"
+        },
+        {
+            "titol": "Los Juegos del Hambre",
+            "autor": "Suzanne Collins"
+        }
+    ]
+}

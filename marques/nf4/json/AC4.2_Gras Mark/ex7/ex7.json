@@ -1,0 +1,24 @@
+{
+    "$schema": "./ex7.jsd",
+    "reservas": [
+        {
+            "id_reserva": 1,
+            "client": {
+                "nom": "Juan Pérez",
+                "email": "juan.perez@example.com"
+            },
+            "habitacions": [
+                {
+                    "tipus": "doble",
+                    "nombre_nits": 3,
+                    "preu_per_nit": 80
+                },
+                {
+                    "tipus": "suite",
+                    "nombre_nits": 2,
+                    "preu_per_nit": 150
+                }
+            ]
+        }
+    ]
+}

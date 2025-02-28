@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(213, 213, 213);
+}
+.header {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(64, 64, 64);
+}
+li a{
+    display: block;
+    padding: 28.5px 20px;
+    color: white;
+    text-align: center;
+    width: auto;
+    height: auto;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgba(211, 211, 211, 0.5);
+}
+h1 {
+    color: rgb(124, 175, 252);
+    display: block;
+    margin-bottom: 20px;
+}
+.slide {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+.slideI {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.content {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgb(75, 75, 75);
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+}
+.content2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgb(75, 75, 75);
+    padding: 5px;
+    border-radius: 10px;
+    display: none;
+}
+.content3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgb(75, 75, 75);
+    padding: 5px;
+    border-radius: 10px;
+    display: none;
+}
+.texto {
+    padding: 5px;
+    text-align: justify;
+    margin-left: 10px;
+}
+.h22 {
+    color: rgb(124, 175, 252);
+    padding: 15px;
+    font-size: 20px;
+}
+.fondoNegro {
+    background-color: rgb(34, 34, 34);
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-align: justify;
+}
+.operadorText {
+    color: black;
+    margin-left: 10px;
+}
+.condicionalText {
+    color: black;
+    margin-left: 10px;
+}
+.bucleText {
+    color: black;
+    margin-left: 10px;
+}
+.arrayText {
+    color: black;
+    margin-left: 10px;
+}
+.funcionText {
+    color: black;
+    margin-left: 10px;
+}
+.buttons {
+    padding: 10px;
+    margin-left: 10px;
+}
+.but {
+    color: white;
+    background-color: rgb(124, 175, 252);
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    text-align: center;
+    width: 100px;
+    transition: background-color 0.3s ease;
+}
+.but:hover {
+    background-color: rgb(161, 199, 255);
+    border: 2px solid;
+    border-color: black;
+}

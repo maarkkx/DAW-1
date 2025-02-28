@@ -1,0 +1,27 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "id_reserva": { "type": "integer"},
+        "usuari": {
+            "type": "object",
+            "properties": {
+                "nom": { "type": "string" },
+                "email": { "type": "string", "format": "email"}
+            },
+             "required": ["nom","email"] 
+        },
+        "llibres": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "titol": { "type": "string" },
+                    "autor": { "type": "string" },
+                    "dies_prestec": { "type": "integer" }
+                },
+                "required": ["titol","autor","dies_prestec"]
+            }
+        }
+    },
+}

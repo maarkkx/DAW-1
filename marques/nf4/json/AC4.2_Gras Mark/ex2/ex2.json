@@ -1,0 +1,15 @@
+{
+    "$schema": "./ex2.jsd",
+    "productes": [
+        {
+            "nom": "Pan",
+            "preu": 1,
+            "disponible": true
+        },
+        {
+            "nom": "Atun",
+            "preu": 2,
+            "disponible": false
+        }
+    ]
+}
