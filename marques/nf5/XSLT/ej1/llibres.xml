@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="llibres.xsl"?>
+<llibreria>
+    <llibre>
+        <titol>Harry Potter</titol>
+        <autor>J.K. Rolling</autor>
+    </llibre>
+    <llibre>
+        <titol>Geronimo Stilton</titol>
+        <autor>Desconegut</autor>
+    </llibre>
+</llibreria>

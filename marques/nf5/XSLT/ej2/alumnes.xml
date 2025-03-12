@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="alumnes.xsl"?>
+<escola>
+    <alumne>
+        <nom>Mark</nom>
+        <edat>18</edat>
+        <nota>10</nota>
+    </alumne>
+    <alumne>
+        <nom>David</nom>
+        <edat>18</edat>
+        <nota>7</nota>
+    </alumne>
+    <alumne>
+        <nom>Kulraj</nom>
+        <edat>18</edat>
+        <nota>0</nota>
+    </alumne>
+</escola>
