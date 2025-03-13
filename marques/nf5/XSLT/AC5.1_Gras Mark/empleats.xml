@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="empleats.xsl"?>
+<oficina>
+    <empleat>
+        <nom>Alvaro</nom>
+        <carrec>Director</carrec>
+        <departament>RRHH</departament>
+        <sou>4000</sou>
+        <experiencia>5</experiencia>
+    </empleat>
+    <empleat>
+        <nom>Mark</nom>
+        <carrec>Jefe</carrec>
+        <departament>Informatica</departament>
+        <sou>6000</sou>
+        <experiencia>7</experiencia>
+    </empleat>
+    <empleat>
+        <nom>Samuel</nom>
+        <carrec>Programador</carrec>
+        <departament>Informatica</departament>
+        <sou>3000</sou>
+        <experiencia>4</experiencia>
+    </empleat>
+    <empleat>
+        <nom>Victor</nom>
+        <carrec>Xarxes Socials</carrec>
+        <departament>Marketing</departament>
+        <sou>5000</sou>
+        <experiencia>1</experiencia>
+    </empleat>
+</oficina>
