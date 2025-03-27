@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="reserves.xsl"?>
+<laboratori>
+    <facultats>
+        <facultat>
+            <IdFacultat>F001</IdFacultat>
+            <NomFacultat>Enginyeria</NomFacultat>
+            <Ubicacio>Barcelona</Ubicacio>
+            <Telefon>934567890</Telefon>
+        </facultat>
+        <facultat>
+            <IdFacultat>F002</IdFacultat>
+            <NomFacultat>Física</NomFacultat>
+            <Ubicacio>Madrid</Ubicacio>
+            <Telefon>912345678</Telefon>
+        </facultat>
+        <facultat>
+            <IdFacultat>F003</IdFacultat>
+            <NomFacultat>Biologia</NomFacultat>
+            <Ubicacio>València</Ubicacio>
+            <Telefon>963214587</Telefon>
+        </facultat>
+    </facultats>
+    
+    <investigadors>
+        <investigador>
+            <DNI>32544331</DNI>
+            <NomInvestigador>Joan</NomInvestigador>
+            <CognomInvestigador>Bastardes Soto</CognomInvestigador>
+            <IdFacultat>F001</IdFacultat>
+            <Email>joan.bastardes@univ.cat</Email>
+            <Telefon>600123456</Telefon>
+        </investigador>
+        <investigador>
+            <DNI>47851236</DNI>
+            <NomInvestigador>Maria</NomInvestigador>
+            <CognomInvestigador>Rodriguez Lopez</CognomInvestigador>
+            <IdFacultat>F002</IdFacultat>
+            <Email>maria.rodriguez@univ.cat</Email>
+            <Telefon>610987654</Telefon>
+        </investigador>
+        <investigador>
+            <DNI>56987412</DNI>
+            <NomInvestigador>Pere</NomInvestigador>
+            <CognomInvestigador>Martínez Soler</CognomInvestigador>
+            <IdFacultat>F003</IdFacultat>
+            <Email>pere.martinez@univ.cat</Email>
+            <Telefon>620567890</Telefon>
+        </investigador>
+    </investigadors>
+    
+    <equips>
+        <equip>
+            <IdEquip>EQ-001</IdEquip>
+            <Nom>Microscopi Electrònic</Nom>
+            <Marca>Zeiss</Marca>
+            <Model>UltraScan 5000</Model>
+            <Ubicacio>Laboratori 1</Ubicacio>
+        </equip>
+        <equip>
+            <IdEquip>EQ-002</IdEquip>
+            <Nom>Espectròmetre de masses</Nom>
+            <Marca>Thermo Fisher</Marca>
+            <Model>OrbiTrap 3000</Model>
+            <Ubicacio>Laboratori 2</Ubicacio>
+        </equip>
+        <equip>
+            <IdEquip>EQ-003</IdEquip>
+            <Nom>Computadora d'alta capacitat</Nom>
+            <Marca>Dell</Marca>
+            <Model>PowerEdge R900</Model>
+            <Ubicacio>Laboratori 3</Ubicacio>
+        </equip>
+    </equips>
+    
+    <reserves>
+        <reserva>
+            <IdReserva>R001</IdReserva>
+            <DNI>32544331</DNI>
+            <IdEquip>EQ-001</IdEquip>
+            <DataInici>2025-03-01</DataInici>
+            <DataFi>2025-03-02</DataFi>
+            <Motiu>Anàlisi de mostres</Motiu>
+        </reserva>
+        <reserva>
+            <IdReserva>R002</IdReserva>
+            <DNI>32544331</DNI>
+            <IdEquip>EQ-002</IdEquip>
+            <DataInici>2025-03-05</DataInici>
+            <DataFi>2025-03-06</DataFi>
+            <Motiu>Experimentació espectromètrica</Motiu>
+        </reserva>
+        <reserva>
+            <IdReserva>R003</IdReserva>
+            <DNI>47851236</DNI>
+            <IdEquip>EQ-003</IdEquip>
+            <DataInici>2025-03-07</DataInici>
+            <DataFi>2025-03-08</DataFi>
+            <Motiu>Simulacions científiques</Motiu>
+        </reserva>
+        <reserva>
+            <IdReserva>R004</IdReserva>
+            <DNI>56987412</DNI>
+            <IdEquip>EQ-001</IdEquip>
+            <DataInici>2025-03-08</DataInici>
+            <DataFi>2025-03-09</DataFi>
+            <Motiu>Anàlisi estructural</Motiu>
+        </reserva>
+        <reserva>
+            <IdReserva>R005</IdReserva>
+            <DNI>32544331</DNI>
+            <IdEquip>EQ-003</IdEquip>
+            <DataInici>2025-03-10</DataInici>
+            <DataFi>2025-03-11</DataFi>
+            <Motiu>Processament de dades massives</Motiu>
+        </reserva>
+        <reserva>
+            <IdReserva>R006</IdReserva>
+            <DNI>47851236</DNI>
+            <IdEquip>EQ-002</IdEquip>
+            <DataInici>2025-03-12</DataInici>
+            <DataFi>2025-03-13</DataFi>
+            <Motiu>Anàlisi espectral de compostos</Motiu>
+        </reserva>
+        <reserva>
+            <IdReserva>R007</IdReserva>
+            <DNI>56987412</DNI>
+            <IdEquip>EQ-003</IdEquip>
+            <DataInici>2025-03-15</DataInici>
+            <DataFi>2025-03-16</DataFi>
+            <Motiu>Modelització 3D</Motiu>
+        </reserva>
+    </reserves>
+</laboratori>
