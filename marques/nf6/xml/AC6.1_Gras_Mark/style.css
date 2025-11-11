@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    border-radius: 2px;
+    border: 1px solid;
+    margin: auto;
+}
+th {
+    border: 1px solid;
+}
+td {
+    border: 1px solid;
+}
+tr {
+    border: 1px solid;
+}
+body {
+    margin: 30px;
+}

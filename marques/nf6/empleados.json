@@ -1,0 +1,414 @@
+{
+  "empresa": {
+    "clientes": {
+      "cliente": [
+        {
+          "NumClie": "1",
+          "Nombre": "Cristóbal García",
+          "RepClie": "Ana Bustamante",
+          "LimiteCredito": "5000"
+        },
+        {
+          "NumClie": "2",
+          "Nombre": "María López",
+          "RepClie": "Juan Pérez",
+          "LimiteCredito": "3000"
+        },
+        {
+          "NumClie": "3",
+          "Nombre": "Pedro Sánchez",
+          "RepClie": "Ana Bustamante",
+          "LimiteCredito": "4500"
+        },
+        {
+          "NumClie": "4",
+          "Nombre": "Laura Fernández",
+          "RepClie": "Marcos Ruiz",
+          "LimiteCredito": "2500"
+        },
+        {
+          "NumClie": "5",
+          "Nombre": "José Martínez",
+          "RepClie": "Lucía Gómez",
+          "LimiteCredito": "6000"
+        },
+        {
+          "NumClie": "6",
+          "Nombre": "Carlos Ramírez",
+          "RepClie": "Elena Díaz",
+          "LimiteCredito": "3200"
+        },
+        {
+          "NumClie": "7",
+          "Nombre": "Isabel Torres",
+          "RepClie": "Fernando Álvarez",
+          "LimiteCredito": "5000"
+        },
+        {
+          "NumClie": "8",
+          "Nombre": "David Castillo",
+          "RepClie": "Paula Sánchez",
+          "LimiteCredito": "2700"
+        },
+        {
+          "NumClie": "9",
+          "Nombre": "Andrea Navarro",
+          "RepClie": "Javier Ortega",
+          "LimiteCredito": "4100"
+        },
+        {
+          "NumClie": "10",
+          "Nombre": "Francisco Moreno",
+          "RepClie": "Ana Bustamante",
+          "LimiteCredito": "3800"
+        }
+      ]
+    },
+    "empleados": {
+      "empleado": [
+        {
+          "NumEmp": "101",
+          "Nombre": "Ana Bustamante",
+          "Edad": "35",
+          "Oficina": "Madrid",
+          "Titulo": "Representant",
+          "Contrato": "Fijo"
+        },
+        {
+          "NumEmp": "102",
+          "Nombre": "Juan Pérez",
+          "Edad": "40",
+          "Oficina": "Barcelona",
+          "Titulo": "Gerent",
+          "Contrato": "Fijo"
+        },
+        {
+          "NumEmp": "103",
+          "Nombre": "Marcos Ruiz",
+          "Edad": "38",
+          "Oficina": "Sevilla",
+          "Titulo": "Supervisor",
+          "Contrato": "Temporal"
+        },
+        {
+          "NumEmp": "104",
+          "Nombre": "Lucía Gómez",
+          "Edad": "29",
+          "Oficina": "Madrid",
+          "Titulo": "Asesora",
+          "Contrato": "Fijo"
+        },
+        {
+          "NumEmp": "105",
+          "Nombre": "Elena Díaz",
+          "Edad": "33",
+          "Oficina": "Valencia",
+          "Titulo": "Coordinadora",
+          "Contrato": "Temporal"
+        },
+        {
+          "NumEmp": "106",
+          "Nombre": "Fernando Álvarez",
+          "Edad": "42",
+          "Oficina": "Bilbao",
+          "Titulo": "Analista",
+          "Contrato": "Fijo"
+        },
+        {
+          "NumEmp": "107",
+          "Nombre": "Paula Sánchez",
+          "Edad": "31",
+          "Oficina": "Málaga",
+          "Titulo": "Consultora",
+          "Contrato": "Temporal"
+        },
+        {
+          "NumEmp": "108",
+          "Nombre": "Javier Ortega",
+          "Edad": "37",
+          "Oficina": "Zaragoza",
+          "Titulo": "Técnico",
+          "Contrato": "Fijo"
+        },
+        {
+          "NumEmp": "109",
+          "Nombre": "Marta Rodríguez",
+          "Edad": "28",
+          "Oficina": "Granada",
+          "Titulo": "Administrativa",
+          "Contrato": "Temporal"
+        },
+        {
+          "NumEmp": "110",
+          "Nombre": "Roberto López",
+          "Edad": "45",
+          "Oficina": "Murcia",
+          "Titulo": "Director",
+          "Contrato": "Fijo"
+        }
+      ]
+    },
+    "oficinas": {
+      "oficina": [
+        {
+          "Codigo": "1",
+          "Ciudad": "Madrid",
+          "Region": "Centro",
+          "Dir": "Calle Mayor, 10",
+          "Objetivo": "4000",
+          "Ventas": "3800",
+          "Director": "Juan Pérez"
+        },
+        {
+          "Codigo": "2",
+          "Ciudad": "Barcelona",
+          "Region": "Cataluña",
+          "Dir": "Gran Via, 50",
+          "Objetivo": "5000",
+          "Ventas": "4600",
+          "Director": "Marcos Ruiz"
+        },
+        {
+          "Codigo": "3",
+          "Ciudad": "Sevilla",
+          "Region": "Andalucía",
+          "Dir": "Avenida de la Constitución, 25",
+          "Objetivo": "3500",
+          "Ventas": "3200",
+          "Director": "Lucía Gómez"
+        },
+        {
+          "Codigo": "4",
+          "Ciudad": "Valencia",
+          "Region": "Comunidad Valenciana",
+          "Dir": "Calle Colón, 30",
+          "Objetivo": "4200",
+          "Ventas": "3900",
+          "Director": "Elena Díaz"
+        },
+        {
+          "Codigo": "5",
+          "Ciudad": "Bilbao",
+          "Region": "País Vasco",
+          "Dir": "Gran Vía, 40",
+          "Objetivo": "3800",
+          "Ventas": "3600",
+          "Director": "Fernando Álvarez"
+        },
+        {
+          "Codigo": "6",
+          "Ciudad": "Málaga",
+          "Region": "Andalucía",
+          "Dir": "Calle Larios, 15",
+          "Objetivo": "3000",
+          "Ventas": "2800",
+          "Director": "Paula Sánchez"
+        },
+        {
+          "Codigo": "7",
+          "Ciudad": "Zaragoza",
+          "Region": "Aragón",
+          "Dir": "Paseo de la Independencia, 20",
+          "Objetivo": "3300",
+          "Ventas": "3100",
+          "Director": "Javier Ortega"
+        },
+        {
+          "Codigo": "8",
+          "Ciudad": "Granada",
+          "Region": "Andalucía",
+          "Dir": "Gran Vía de Colón, 10",
+          "Objetivo": "2900",
+          "Ventas": "2700",
+          "Director": "Marta Rodríguez"
+        },
+        {
+          "Codigo": "9",
+          "Ciudad": "Murcia",
+          "Region": "Región de Murcia",
+          "Dir": "Gran Vía Escultor Salzillo, 5",
+          "Objetivo": "3100",
+          "Ventas": "2900",
+          "Director": "Roberto López"
+        },
+        {
+          "Codigo": "10",
+          "Ciudad": "Alicante",
+          "Region": "Comunidad Valenciana",
+          "Dir": "Avenida de la Estación, 20",
+          "Objetivo": "3400",
+          "Ventas": "3200",
+          "Director": "Ana Bustamante"
+        }
+      ]
+    },
+    "productos": {
+      "producto": [
+        {
+          "IdFab": "1001",
+          "IdProducto": "P001",
+          "Descripcion": "Ordenador Portátil",
+          "Precio": "800",
+          "Existencias": "15"
+        },
+        {
+          "IdFab": "1002",
+          "IdProducto": "P002",
+          "Descripcion": "Impresora Láser",
+          "Precio": "250",
+          "Existencias": "30"
+        },
+        {
+          "IdFab": "1003",
+          "IdProducto": "P003",
+          "Descripcion": "Monitor LED",
+          "Precio": "150",
+          "Existencias": "25"
+        },
+        {
+          "IdFab": "1004",
+          "IdProducto": "P004",
+          "Descripcion": "Teclado Mecánico",
+          "Precio": "80",
+          "Existencias": "40"
+        },
+        {
+          "IdFab": "1005",
+          "IdProducto": "P005",
+          "Descripcion": "Ratón Inalámbrico",
+          "Precio": "30",
+          "Existencias": "50"
+        },
+        {
+          "IdFab": "1006",
+          "IdProducto": "P006",
+          "Descripcion": "Altavoces Bluetooth",
+          "Precio": "60",
+          "Existencias": "35"
+        },
+        {
+          "IdFab": "1007",
+          "IdProducto": "P007",
+          "Descripcion": "Cámara Web",
+          "Precio": "45",
+          "Existencias": "20"
+        },
+        {
+          "IdFab": "1008",
+          "IdProducto": "P008",
+          "Descripcion": "Disco Duro Externo",
+          "Precio": "120",
+          "Existencias": "18"
+        },
+        {
+          "IdFab": "1009",
+          "IdProducto": "P009",
+          "Descripcion": "Memoria USB",
+          "Precio": "20",
+          "Existencias": "60"
+        },
+        {
+          "IdFab": "1010",
+          "IdProducto": "P010",
+          "Descripcion": "Tarjeta Gráfica",
+          "Precio": "300",
+          "Existencias": "10"
+        }
+      ]
+    },
+    "pedidos": {
+      "pedido": [
+        {
+          "Codigo": "5001",
+          "NumPedido": "20240115",
+          "FechaPedido": "2024-01-15",
+          "Cliente": "Cristóbal García",
+          "Representante": "Ana Bustamante",
+          "Fabricante": "HP",
+          "Importe": "850"
+        },
+        {
+          "Codigo": "5002",
+          "NumPedido": "20240210",
+          "FechaPedido": "2024-02-10",
+          "Cliente": "María López",
+          "Representante": "Juan Pérez",
+          "Fabricante": "Canon",
+          "Importe": "300"
+        },
+        {
+          "Codigo": "5003",
+          "NumPedido": "20240320",
+          "FechaPedido": "2024-03-20",
+          "Cliente": "Pedro Sánchez",
+          "Representante": "Ana Bustamante",
+          "Fabricante": "Dell",
+          "Importe": "900"
+        },
+        {
+          "Codigo": "5004",
+          "NumPedido": "20240405",
+          "FechaPedido": "2024-04-05",
+          "Cliente": "Laura Fernández",
+          "Representante": "Marcos Ruiz",
+          "Fabricante": "Samsung",
+          "Importe": "400"
+        },
+        {
+          "Codigo": "5005",
+          "NumPedido": "20240512",
+          "FechaPedido": "2024-05-12",
+          "Cliente": "José Martínez",
+          "Representante": "Lucía Gómez",
+          "Fabricante": "Lenovo",
+          "Importe": "750"
+        },
+        {
+          "Codigo": "5006",
+          "NumPedido": "20240625",
+          "FechaPedido": "2024-06-25",
+          "Cliente": "Carlos Ramírez",
+          "Representante": "Elena Díaz",
+          "Fabricante": "Acer",
+          "Importe": "500"
+        },
+        {
+          "Codigo": "5007",
+          "NumPedido": "20240710",
+          "FechaPedido": "2024-07-10",
+          "Cliente": "Isabel Torres",
+          "Representante": "Fernando Álvarez",
+          "Fabricante": "Asus",
+          "Importe": "600"
+        },
+        {
+          "Codigo": "5008",
+          "NumPedido": "20240815",
+          "FechaPedido": "2024-08-15",
+          "Cliente": "David Castillo",
+          "Representante": "Paula Sánchez",
+          "Fabricante": "Logitech",
+          "Importe": "200"
+        },
+        {
+          "Codigo": "5009",
+          "NumPedido": "20240920",
+          "FechaPedido": "2024-09-20",
+          "Cliente": "Andrea Navarro",
+          "Representante": "Javier Ortega",
+          "Fabricante": "Microsoft",
+          "Importe": "350"
+        },
+        {
+          "Codigo": "5010",
+          "NumPedido": "20241005",
+          "FechaPedido": "2024-10-05",
+          "Cliente": "Francisco Moreno",
+          "Representante": "Ana Bustamante",
+          "Fabricante": "Apple",
+          "Importe": "1200"
+        }
+      ]
+    }
+  }
+}

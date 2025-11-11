@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <clientes>
+        <cliente>
+            <NumClie>1</NumClie>
+            <Nombre>Cristóbal García</Nombre>
+            <RepClie>Ana Bustamante</RepClie>
+            <LimiteCredito>5000</LimiteCredito>
+        </cliente>
+        <cliente>
+            <NumClie>2</NumClie>
+            <Nombre>María López</Nombre>
+            <RepClie>Juan Pérez</RepClie>
+            <LimiteCredito>3000</LimiteCredito>
+        </cliente>
+        <cliente>
+            <NumClie>3</NumClie>
+            <Nombre>Pedro Sánchez</Nombre>
+            <RepClie>Ana Bustamante</RepClie>
+            <LimiteCredito>4500</LimiteCredito>
+        </cliente>
+        <cliente>
+            <NumClie>4</NumClie>
+            <Nombre>Laura Fernández</Nombre>
+            <RepClie>Marcos Ruiz</RepClie>
+            <LimiteCredito>2500</LimiteCredito>
+        </cliente>
+        <cliente>
+            <NumClie>5</NumClie>
+            <Nombre>José Martínez</Nombre>
+            <RepClie>Lucía Gómez</RepClie>
+            <LimiteCredito>6000</LimiteCredito>
+        </cliente>
+        <cliente>
+            <NumClie>6</NumClie>
+            <Nombre>Carlos Ramírez</Nombre>
+            <RepClie>Elena Díaz</RepClie>
+            <LimiteCredito>3200</LimiteCredito>
+        </cliente>
+        <cliente>
+            <NumClie>7</NumClie>
+            <Nombre>Isabel Torres</Nombre>
+            <RepClie>Fernando Álvarez</RepClie>
+            <LimiteCredito>5000</LimiteCredito>
+        </cliente>
+        <cliente>
+            <NumClie>8</NumClie>
+            <Nombre>David Castillo</Nombre>
+            <RepClie>Paula Sánchez</RepClie>
+            <LimiteCredito>2700</LimiteCredito>
+        </cliente>
+        <cliente>
+            <NumClie>9</NumClie>
+            <Nombre>Andrea Navarro</Nombre>
+            <RepClie>Javier Ortega</RepClie>
+            <LimiteCredito>4100</LimiteCredito>
+        </cliente>
+        <cliente>
+            <NumClie>10</NumClie>
+            <Nombre>Francisco Moreno</Nombre>
+            <RepClie>Ana Bustamante</RepClie>
+            <LimiteCredito>3800</LimiteCredito>
+        </cliente>
+    </clientes>
+
+    <empleados>
+        <empleado>
+            <NumEmp>101</NumEmp>
+            <Nombre>Ana Bustamante</Nombre>
+            <Edad>35</Edad>
+            <Oficina>Madrid</Oficina>
+            <Titulo>Representant</Titulo>
+            <Contrato>Fijo</Contrato>
+        </empleado>
+        <empleado>
+            <NumEmp>102</NumEmp>
+            <Nombre>Juan Pérez</Nombre>
+            <Edad>40</Edad>
+            <Oficina>Barcelona</Oficina>
+            <Titulo>Gerent</Titulo>
+            <Contrato>Fijo</Contrato>
+        </empleado>
+        <empleado>
+            <NumEmp>103</NumEmp>
+            <Nombre>Marcos Ruiz</Nombre>
+            <Edad>38</Edad>
+            <Oficina>Sevilla</Oficina>
+            <Titulo>Supervisor</Titulo>
+            <Contrato>Temporal</Contrato>
+        </empleado>
+        <empleado>
+            <NumEmp>104</NumEmp>
+            <Nombre>Lucía Gómez</Nombre>
+            <Edad>29</Edad>
+            <Oficina>Madrid</Oficina>
+            <Titulo>Asesora</Titulo>
+            <Contrato>Fijo</Contrato>
+        </empleado>
+        <empleado>
+            <NumEmp>105</NumEmp>
+            <Nombre>Elena Díaz</Nombre>
+            <Edad>33</Edad>
+            <Oficina>Valencia</Oficina>
+            <Titulo>Coordinadora</Titulo>
+            <Contrato>Temporal</Contrato>
+        </empleado>
+        <empleado>
+            <NumEmp>106</NumEmp>
+            <Nombre>Fernando Álvarez</Nombre>
+            <Edad>42</Edad>
+            <Oficina>Bilbao</Oficina>
+            <Titulo>Analista</Titulo>
+            <Contrato>Fijo</Contrato>
+        </empleado>
+        <empleado>
+            <NumEmp>107</NumEmp>
+            <Nombre>Paula Sánchez</Nombre>
+            <Edad>31</Edad>
+            <Oficina>Málaga</Oficina>
+            <Titulo>Consultora</Titulo>
+            <Contrato>Temporal</Contrato>
+        </empleado>
+        <empleado>
+            <NumEmp>108</NumEmp>
+            <Nombre>Javier Ortega</Nombre>
+            <Edad>37</Edad>
+            <Oficina>Zaragoza</Oficina>
+            <Titulo>Técnico</Titulo>
+            <Contrato>Fijo</Contrato>
+        </empleado>
+        <empleado>
+            <NumEmp>109</NumEmp>
+            <Nombre>Marta Rodríguez</Nombre>
+            <Edad>28</Edad>
+            <Oficina>Granada</Oficina>
+            <Titulo>Administrativa</Titulo>
+            <Contrato>Temporal</Contrato>
+        </empleado>
+        <empleado>
+            <NumEmp>110</NumEmp>
+            <Nombre>Roberto López</Nombre>
+            <Edad>45</Edad>
+            <Oficina>Murcia</Oficina>
+            <Titulo>Director</Titulo>
+            <Contrato>Fijo</Contrato>
+        </empleado>
+    </empleados>
+
+    <oficinas>
+        <oficina>
+            <Codigo>1</Codigo>
+            <Ciudad>Madrid</Ciudad>
+            <Region>Centro</Region>
+            <Dir>Calle Mayor, 10</Dir>
+            <Objetivo>4000</Objetivo>
+            <Ventas>3800</Ventas>
+            <Director>Juan Pérez</Director>
+        </oficina>
+        <oficina>
+            <Codigo>2</Codigo>
+            <Ciudad>Barcelona</Ciudad>
+            <Region>Cataluña</Region>
+            <Dir>Gran Via, 50</Dir>
+            <Objetivo>5000</Objetivo>
+            <Ventas>4600</Ventas>
+            <Director>Marcos Ruiz</Director>
+        </oficina>
+        <oficina>
+            <Codigo>3</Codigo>
+            <Ciudad>Sevilla</Ciudad>
+            <Region>Andalucía</Region>
+            <Dir>Avenida de la Constitución, 25</Dir>
+            <Objetivo>3500</Objetivo>
+            <Ventas>3200</Ventas>
+            <Director>Lucía Gómez</Director>
+        </oficina>
+        <oficina>
+            <Codigo>4</Codigo>
+            <Ciudad>Valencia</Ciudad>
+            <Region>Comunidad Valenciana</Region>
+            <Dir>Calle Colón, 30</Dir>
+            <Objetivo>4200</Objetivo>
+            <Ventas>3900</Ventas>
+            <Director>Elena Díaz</Director>
+        </oficina>
+        <oficina>
+            <Codigo>5</Codigo>
+            <Ciudad>Bilbao</Ciudad>
+            <Region>País Vasco</Region>
+            <Dir>Gran Vía, 40</Dir>
+            <Objetivo>3800</Objetivo>
+            <Ventas>3600</Ventas>
+            <Director>Fernando Álvarez</Director>
+        </oficina>
+        <oficina>
+            <Codigo>6</Codigo>
+            <Ciudad>Málaga</Ciudad>
+            <Region>Andalucía</Region>
+            <Dir>Calle Larios, 15</Dir>
+            <Objetivo>3000</Objetivo>
+            <Ventas>2800</Ventas>
+            <Director>Paula Sánchez</Director>
+        </oficina>
+        <oficina>
+            <Codigo>7</Codigo>
+            <Ciudad>Zaragoza</Ciudad>
+            <Region>Aragón</Region>
+            <Dir>Paseo de la Independencia, 20</Dir>
+            <Objetivo>3300</Objetivo>
+            <Ventas>3100</Ventas>
+            <Director>Javier Ortega</Director>
+        </oficina>
+        <oficina>
+            <Codigo>8</Codigo>
+            <Ciudad>Granada</Ciudad>
+            <Region>Andalucía</Region>
+            <Dir>Gran Vía de Colón, 10</Dir>
+            <Objetivo>2900</Objetivo>
+            <Ventas>2700</Ventas>
+            <Director>Marta Rodríguez</Director>
+        </oficina>
+        <oficina>
+            <Codigo>9</Codigo>
+            <Ciudad>Murcia</Ciudad>
+            <Region>Región de Murcia</Region>
+            <Dir>Gran Vía Escultor Salzillo, 5</Dir>
+            <Objetivo>3100</Objetivo>
+            <Ventas>2900</Ventas>
+            <Director>Roberto López</Director>
+        </oficina>
+        <oficina>
+            <Codigo>10</Codigo>
+            <Ciudad>Alicante</Ciudad>
+            <Region>Comunidad Valenciana</Region>
+            <Dir>Avenida de la Estación, 20</Dir>
+            <Objetivo>3400</Objetivo>
+            <Ventas>3200</Ventas>
+            <Director>Ana Bustamante</Director>
+        </oficina>
+    </oficinas>
+
+    <productos>
+        <producto>
+            <IdFab>1001</IdFab>
+            <IdProducto>P001</IdProducto>
+            <Descripcion>Ordenador Portátil</Descripcion>
+            <Precio>800</Precio>
+            <Existencias>15</Existencias>
+        </producto>
+        <producto>
+            <IdFab>1002</IdFab>
+            <IdProducto>P002</IdProducto>
+            <Descripcion>Impresora Láser</Descripcion>
+            <Precio>250</Precio>
+            <Existencias>30</Existencias>
+        </producto>
+        <producto>
+            <IdFab>1003</IdFab>
+            <IdProducto>P003</IdProducto>
+            <Descripcion>Monitor LED</Descripcion>
+            <Precio>150</Precio>
+            <Existencias>25</Existencias>
+        </producto>
+        <producto>
+            <IdFab>1004</IdFab>
+            <IdProducto>P004</IdProducto>
+            <Descripcion>Teclado Mecánico</Descripcion>
+            <Precio>80</Precio>
+            <Existencias>40</Existencias>
+        </producto>
+        <producto>
+            <IdFab>1005</IdFab>
+            <IdProducto>P005</IdProducto>
+            <Descripcion>Ratón Inalámbrico</Descripcion>
+            <Precio>30</Precio>
+            <Existencias>50</Existencias>
+        </producto>
+        <producto>
+            <IdFab>1006</IdFab>
+            <IdProducto>P006</IdProducto>
+            <Descripcion>Altavoces Bluetooth</Descripcion>
+            <Precio>60</Precio>
+            <Existencias>35</Existencias>
+        </producto>
+        <producto>
+            <IdFab>1007</IdFab>
+            <IdProducto>P007</IdProducto>
+            <Descripcion>Cámara Web</Descripcion>
+            <Precio>45</Precio>
+            <Existencias>20</Existencias>
+        </producto>
+        <producto>
+            <IdFab>1008</IdFab>
+            <IdProducto>P008</IdProducto>
+            <Descripcion>Disco Duro Externo</Descripcion>
+            <Precio>120</Precio>
+            <Existencias>18</Existencias>
+        </producto>
+        <producto>
+            <IdFab>1009</IdFab>
+            <IdProducto>P009</IdProducto>
+            <Descripcion>Memoria USB</Descripcion>
+            <Precio>20</Precio>
+            <Existencias>60</Existencias>
+        </producto>
+        <producto>
+            <IdFab>1010</IdFab>
+            <IdProducto>P010</IdProducto>
+            <Descripcion>Tarjeta Gráfica</Descripcion>
+            <Precio>300</Precio>
+            <Existencias>10</Existencias>
+        </producto>
+    </productos>
+
+    <pedidos>
+        <pedido>
+            <Codigo>5001</Codigo>
+            <NumPedido>20240115</NumPedido>
+            <FechaPedido>2024-01-15</FechaPedido>
+            <Cliente>Cristóbal García</Cliente>
+            <Representante>Ana Bustamante</Representante>
+            <Fabricante>HP</Fabricante>
+            <Importe>850</Importe>
+        </pedido>
+        <pedido>
+            <Codigo>5002</Codigo>
+            <NumPedido>20240210</NumPedido>
+            <FechaPedido>2024-02-10</FechaPedido>
+            <Cliente>María López</Cliente>
+            <Representante>Juan Pérez</Representante>
+            <Fabricante>Canon</Fabricante>
+            <Importe>300</Importe>
+        </pedido>
+        <pedido>
+            <Codigo>5003</Codigo>
+            <NumPedido>20240320</NumPedido>
+            <FechaPedido>2024-03-20</FechaPedido>
+            <Cliente>Pedro Sánchez</Cliente>
+            <Representante>Ana Bustamante</Representante>
+            <Fabricante>Dell</Fabricante>
+            <Importe>900</Importe>
+        </pedido>
+        <pedido>
+            <Codigo>5004</Codigo>
+            <NumPedido>20240405</NumPedido>
+            <FechaPedido>2024-04-05</FechaPedido>
+            <Cliente>Laura Fernández</Cliente>
+            <Representante>Marcos Ruiz</Representante>
+            <Fabricante>Samsung</Fabricante>
+            <Importe>400</Importe>
+        </pedido>
+        <pedido>
+            <Codigo>5005</Codigo>
+            <NumPedido>20240512</NumPedido>
+            <FechaPedido>2024-05-12</FechaPedido>
+            <Cliente>José Martínez</Cliente>
+            <Representante>Lucía Gómez</Representante>
+            <Fabricante>Lenovo</Fabricante>
+            <Importe>750</Importe>
+        </pedido>
+        <pedido>
+            <Codigo>5006</Codigo>
+            <NumPedido>20240625</NumPedido>
+            <FechaPedido>2024-06-25</FechaPedido>
+            <Cliente>Carlos Ramírez</Cliente>
+            <Representante>Elena Díaz</Representante>
+            <Fabricante>Acer</Fabricante>
+            <Importe>500</Importe>
+        </pedido>
+        <pedido>
+            <Codigo>5007</Codigo>
+            <NumPedido>20240710</NumPedido>
+            <FechaPedido>2024-07-10</FechaPedido>
+            <Cliente>Isabel Torres</Cliente>
+            <Representante>Fernando Álvarez</Representante>
+            <Fabricante>Asus</Fabricante>
+            <Importe>600</Importe>
+        </pedido>
+        <pedido>
+            <Codigo>5008</Codigo>
+            <NumPedido>20240815</NumPedido>
+            <FechaPedido>2024-08-15</FechaPedido>
+            <Cliente>David Castillo</Cliente>
+            <Representante>Paula Sánchez</Representante>
+            <Fabricante>Logitech</Fabricante>
+            <Importe>200</Importe>
+        </pedido>
+        <pedido>
+            <Codigo>5009</Codigo>
+            <NumPedido>20240920</NumPedido>
+            <FechaPedido>2024-09-20</FechaPedido>
+            <Cliente>Andrea Navarro</Cliente>
+            <Representante>Javier Ortega</Representante>
+            <Fabricante>Microsoft</Fabricante>
+            <Importe>350</Importe>
+        </pedido>
+        <pedido>
+            <Codigo>5010</Codigo>
+            <NumPedido>20241005</NumPedido>
+            <FechaPedido>2024-10-05</FechaPedido>
+            <Cliente>Francisco Moreno</Cliente>
+            <Representante>Ana Bustamante</Representante>
+            <Fabricante>Apple</Fabricante>
+            <Importe>1200</Importe>
+        </pedido>
+    </pedidos>
+</empresa>

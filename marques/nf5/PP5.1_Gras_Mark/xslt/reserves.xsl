@@ -35,10 +35,10 @@
                         <td><xsl:value-of select="DNI"/></td>
                         <td><xsl:value-of select="NomInvestigador"/></td>
                         <td><xsl:value-of select="CognomInvestigador"/></td>
-                        <xsl:for-each select="laboratori/facultats/facultat[IdFacultat = laboratori/investigadors/investigador/IdFacultat]">
-                            <td><xsl:value-of select="NomFacultat"/></td>
-                        </xsl:for-each>
 
+                        <xsl:variable name="id" select="IdFacultat"/>
+                        <xsl:variable name="nom" select="/laboratori/facultats/facultat[IdFacultat=$id]/NomFacultat"/>
+                        <td><xsl:value-of select="$nom"/></td>
                     </tr> 
                 </xsl:for-each>
                 </table>
@@ -47,15 +47,13 @@
 
                 <table> 
                 <xsl:for-each select="laboratori/reserves/reserva[DNI = 32544331]">
-                    <tr>
-                        <td><xsl:value-of select="IdEquip"/></td>
-                    </tr>
+                        <tr>
+                            <td><xsl:value-of select="IdEquip"/></td>
+                            <xsl:variable name="id" select="IdEquip"/>
+                            <xsl:variable name="nom" select="/laboratori/equips/equip[IdEquip=$id]/Nom"/>
+                            <td><xsl:value-of select="$nom"/></td>
+                        </tr>
                 </xsl:for-each>
-                    <tr>
-                        <xsl:if test="laboratori/equips/equip/IdEquip = laboratori/reserves/reserva[DNI = 32544331]/IdEquip">
-                            <td><xsl:value-of select="laboratori/equips/equip/Nom"/></td>
-                        </xsl:if>
-                    </tr>
                 </table>
             </body>
         </html>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neptuno>
+    <Articulos>
+        <RefArticulo>1</RefArticulo>
+        <RefProveedor>18</RefProveedor>
+        <NombreArticulo>Té Dharamsalat</NombreArticulo>
+        <NombreCategoria>Bebidas</NombreCategoria>
+        <PrecioUnidad>18</PrecioUnidad>
+        <UnidadesExistencia>39</UnidadesExistencia>
+    </Articulos>
+    <Articulos>
+        <RefArticulo>2</RefArticulo>
+        <RefProveedor>17</RefProveedor>
+        <NombreArticulo>Cerveza Lager</NombreArticulo>
+        <NombreCategoria>Bebidas</NombreCategoria>
+        <PrecioUnidad>22</PrecioUnidad>
+        <UnidadesExistencia>50</UnidadesExistencia>
+    </Articulos>
+    <Articulos>
+        <RefArticulo>3</RefArticulo>
+        <RefProveedor>16</RefProveedor>
+        <NombreArticulo>Cerveza Stout</NombreArticulo>
+        <NombreCategoria>Bebidas</NombreCategoria>
+        <PrecioUnidad>25</PrecioUnidad>
+        <UnidadesExistencia>45</UnidadesExistencia>
+    </Articulos>
+    <Articulos>
+        <RefArticulo>4</RefArticulo>
+        <RefProveedor>15</RefProveedor>
+        <NombreArticulo>Cerveza Pilsner</NombreArticulo>
+        <NombreCategoria>Bebidas</NombreCategoria>
+        <PrecioUnidad>20</PrecioUnidad>
+        <UnidadesExistencia>60</UnidadesExistencia>
+    </Articulos>
+    <Articulos>
+        <RefArticulo>5</RefArticulo>
+        <RefProveedor>14</RefProveedor>
+        <NombreArticulo>Cerveza Ale</NombreArticulo>
+        <NombreCategoria>Bebidas</NombreCategoria>
+        <PrecioUnidad>19</PrecioUnidad>
+        <UnidadesExistencia>55</UnidadesExistencia>
+		 </Articulos>
+   <!-- Condimentos -->
+	<Articulos>
+		<RefArticulo>6</RefArticulo>
+		<RefProveedor>21</RefProveedor>
+		<NombreArticulo>Sal marina</NombreArticulo>
+		<NombreCategoria>Condimentos</NombreCategoria>
+		<PrecioUnidad>5</PrecioUnidad>
+		<UnidadesExistencia>40</UnidadesExistencia>
+	</Articulos>
+	<Articulos>
+		<RefArticulo>7</RefArticulo>
+		<RefProveedor>22</RefProveedor>
+		<NombreArticulo>Pimienta negra</NombreArticulo>
+		<NombreCategoria>Condimentos</NombreCategoria>
+		<PrecioUnidad>7</PrecioUnidad>
+		<UnidadesExistencia>35</UnidadesExistencia>
+	</Articulos>
+	<Articulos>
+		<RefArticulo>8</RefArticulo>
+		<RefProveedor>23</RefProveedor>
+		<NombreArticulo>Mostassa</NombreArticulo>
+		<NombreCategoria>Condimentos</NombreCategoria>
+		<PrecioUnidad>4</PrecioUnidad>
+		<UnidadesExistencia>20</UnidadesExistencia>
+	</Articulos>
+	<Articulos>
+		<RefArticulo>9</RefArticulo>
+		<RefProveedor>21</RefProveedor>
+		<NombreArticulo>Orenga</NombreArticulo>
+		<NombreCategoria>Condimentos</NombreCategoria>
+		<PrecioUnidad>6</PrecioUnidad>
+		<UnidadesExistencia>25</UnidadesExistencia>
+	</Articulos>
+	<Articulos>
+		<RefArticulo>10</RefArticulo>
+		<RefProveedor>22</RefProveedor>
+		<NombreArticulo>All en pols</NombreArticulo>
+		<NombreCategoria>Condimentos</NombreCategoria>
+		<PrecioUnidad>3</PrecioUnidad>
+		<UnidadesExistencia>18</UnidadesExistencia>
+	</Articulos>
+	<Articulos>
+		<RefArticulo>11</RefArticulo>
+		<RefProveedor>23</RefProveedor>
+		<NombreArticulo>Curry</NombreArticulo>
+		<NombreCategoria>Condimentos</NombreCategoria>
+		<PrecioUnidad>6</PrecioUnidad>
+		<UnidadesExistencia>22</UnidadesExistencia>
+	</Articulos>
+
+	<!-- Dulces -->
+	<Articulos>
+		<RefArticulo>12</RefArticulo>
+		<RefProveedor>21</RefProveedor>
+		<NombreArticulo>Caramels de menta</NombreArticulo>
+		<NombreCategoria>Dulces</NombreCategoria>
+		<PrecioUnidad>2</PrecioUnidad>
+		<UnidadesExistencia>100</UnidadesExistencia>
+	</Articulos>
+	<Articulos>
+		<RefArticulo>13</RefArticulo>
+		<RefProveedor>22</RefProveedor>
+		<NombreArticulo>Xocolata negra</NombreArticulo>
+		<NombreCategoria>Dulces</NombreCategoria>
+		<PrecioUnidad>9</PrecioUnidad>
+		<UnidadesExistencia>80</UnidadesExistencia>
+	</Articulos>
+	<Articulos>
+		<RefArticulo>14</RefArticulo>
+		<RefProveedor>23</RefProveedor>
+		<NombreArticulo>Galetes de vainilla</NombreArticulo>
+		<NombreCategoria>Dulces</NombreCategoria>
+		<PrecioUnidad>6</PrecioUnidad>
+		<UnidadesExistencia>70</UnidadesExistencia>
+	</Articulos>
+	<Articulos>
+		<RefArticulo>15</RefArticulo>
+		<RefProveedor>21</RefProveedor>
+		<NombreArticulo>Xiclets</NombreArticulo>
+		<NombreCategoria>Dulces</NombreCategoria>
+		<PrecioUnidad>1</PrecioUnidad>
+		<UnidadesExistencia>200</UnidadesExistencia>
+	</Articulos>
+	<Articulos>
+		<RefArticulo>16</RefArticulo>
+		<RefProveedor>22</RefProveedor>
+		<NombreArticulo>Pastís de formatge</NombreArticulo>
+		<NombreCategoria>Dulces</NombreCategoria>
+		<PrecioUnidad>12</PrecioUnidad>
+		<UnidadesExistencia>30</UnidadesExistencia>
+	</Articulos>
+	<Articulos>
+		<RefArticulo>17</RefArticulo>
+		<RefProveedor>23</RefProveedor>
+		<NombreArticulo>Piruletes</NombreArticulo>
+		<NombreCategoria>Dulces</NombreCategoria>
+		<PrecioUnidad>2</PrecioUnidad>
+		<UnidadesExistencia>150</UnidadesExistencia>
+	</Articulos>
+
+      
+    <Clientes>
+        <RefCliente>SEVES</RefCliente>
+        <NombreCliente>Seven Seas Imports</NombreCliente>
+        <Direccion>90 Wadhurst Rd.</Direccion>
+        <Ciudad>London</Ciudad>
+        <CodPostal>OX15 4NB</CodPostal>
+        <Pais>Reino Unido</Pais>
+        <Telefono>(71) 555-1717</Telefono>
+    </Clientes>
+    <Clientes>
+        <RefCliente>ALFKI</RefCliente>
+        <NombreCliente>Alfreds Futterkiste</NombreCliente>
+        <Direccion>Obere Str. 57</Direccion>
+        <Ciudad>Berlin</Ciudad>
+        <CodPostal>12209</CodPostal>
+        <Pais>Alemania</Pais>
+        <Telefono>030-0074321</Telefono>
+    </Clientes>
+    <Clientes>
+        <RefCliente>ANATR</RefCliente>
+        <NombreCliente>Ana Trujillo Emparedados y helados</NombreCliente>
+        <Direccion>Avda. de la Constitución 2222</Direccion>
+        <Ciudad>México D.F.</Ciudad>
+        <CodPostal>05021</CodPostal>
+        <Pais>México</Pais>
+        <Telefono>(5) 555-4729</Telefono>
+    </Clientes>
+    <Clientes>
+    <RefCliente>MAD01</RefCliente>
+    <NombreCliente>Distribuciones Madrid</NombreCliente>
+    <Direccion>Calle Mayor 10</Direccion>
+    <Ciudad>Madrid</Ciudad>
+    <CodPostal>28013</CodPostal>
+    <Pais>España</Pais>
+    <Telefono>91 555 1234</Telefono>
+	</Clientes>
+	<Clientes>
+		<RefCliente>BAR02</RefCliente>
+		<NombreCliente>Barcelona Foods</NombreCliente>
+		<Direccion>Rambla Catalunya 25</Direccion>
+		<Ciudad>Barcelona</Ciudad>
+		<CodPostal>08007</CodPostal>
+		<Pais>España</Pais>
+		<Telefono>93 555 5678</Telefono>
+	</Clientes>
+	<Clientes>
+		<RefCliente>SEV03</RefCliente>
+		<NombreCliente>Sevilla Gourmet</NombreCliente>
+		<Direccion>Avda. de la Palmera 45</Direccion>
+		<Ciudad>Sevilla</Ciudad>
+		<CodPostal>41013</CodPostal>
+		<Pais>España</Pais>
+		<Telefono>95 555 7890</Telefono>
+	</Clientes>
+	<Clientes>
+		<RefCliente>OVI04</RefCliente>
+		<NombreCliente>Oviedo Selecto</NombreCliente>
+		<Direccion>Calle Uría 18</Direccion>
+		<Ciudad>Oviedo</Ciudad>
+		<CodPostal>33003</CodPostal>
+		<Pais>España</Pais>
+		<Telefono>98 555 2345</Telefono>
+	</Clientes>
+
+    <Pedidos>
+        <RefPedido>22</RefPedido>
+        <RefCliente>SEVES</RefCliente>
+        <RefArticulo>1</RefArticulo>
+        <Cantidad>30</Cantidad>
+        <Descuento>0</Descuento>
+        <FechaPedido>2005-05-24T00:00:00</FechaPedido>
+    </Pedidos>
+    <Pedidos>
+        <RefPedido>23</RefPedido>
+        <RefCliente>ALFKI</RefCliente>
+        <RefArticulo>2</RefArticulo>
+        <Cantidad>50</Cantidad>
+        <Descuento>5</Descuento>
+        <FechaPedido>2005-06-01T00:00:00</FechaPedido>
+    </Pedidos>
+    <Pedidos>
+        <RefPedido>24</RefPedido>
+        <RefCliente>ANATR</RefCliente>
+        <RefArticulo>3</RefArticulo>
+        <Cantidad>20</Cantidad>
+        <Descuento>0</Descuento>
+        <FechaPedido>2005-06-05T00:00:00</FechaPedido>
+    </Pedidos>
+    
+    <Proveedores>
+        <RefProveedor>21</RefProveedor>
+        <NombreProveedor>Lyngbysild</NombreProveedor>
+        <Direccion>Lyngbysild Fiskebakken 10</Direccion>
+        <Ciudad>Lyngby</Ciudad>
+        <CodPostal>2800</CodPostal>
+        <Pais>Dinamarca</Pais>
+        <Telefono>43844108</Telefono>
+    </Proveedores>
+    <Proveedores>
+        <RefProveedor>22</RefProveedor>
+        <NombreProveedor>Exotic Liquids</NombreProveedor>
+        <Direccion>49 Gilbert St.</Direccion>
+        <Ciudad>London</Ciudad>
+        <CodPostal>EC1 4SD</CodPostal>
+        <Pais>Reino Unido</Pais>
+        <Telefono>(171) 555-2222</Telefono>
+    </Proveedores>
+    <Proveedores>
+        <RefProveedor>23</RefProveedor>
+        <NombreProveedor>New Orleans Cajun Delights</NombreProveedor>
+        <Direccion>P.O. Box 78934</Direccion>
+        <Ciudad>New Orleans</Ciudad>
+        <CodPostal>70117</CodPostal>
+        <Pais>EE.UU.</Pais>
+        <Telefono>(100) 555-4822</Telefono>
+    </Proveedores>
+</neptuno>
+
